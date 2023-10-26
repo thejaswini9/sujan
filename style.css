@@ -1,0 +1,157 @@
+
+/* just write "&family={Font-family-name}" */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat&family=Lobster&family=Outfit&family=Poppins&family=Alkatra');
+
+
+/* font-family "Outfit" looks good, use for all  */
+.bg-conta{
+   margin-top :20px ;
+    padding-left : 100px ;
+    /* font-family :'Alkatra' ; */
+    /* font-family : "Outfit" ,serif ;  */
+    font-family : "Poppins" ,serif
+    /* font-family : "Caveat" ; */ 
+ 
+
+ 
+}
+
+.each-field{
+    margin-top : 15px ;
+}
+.vide{
+    width:15% ; 
+    margin-top : 10px ;
+   
+   
+}
+
+.bg-cont {
+    background-color: rgb(7, 99, 68);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto";
+    text-align: center;
+
+}
+
+.head {
+    color: white;
+}
+
+
+#res{
+    background-color:aliceblue ;
+    padding : 15px ;
+}
+.refr{
+    margin-left:8px ;
+    margin-top:6px ; 
+    border-style: none;
+}
+#captchaEnter{
+    margin-top:13px ;
+}
+#captchaText {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrIkP3amVNYP27ijZGVDOW8ED1MEvLPOFQrg&usqp=CAU");
+    font-size: 30px;
+    border: none;
+    outline: none;
+    display: flex;
+    font-family: Roboto;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    width: 150px;
+
+
+}
+.icon {
+    font-size : 30px;
+    color : green ;
+}
+
+.image{
+    width : 100px ;
+}
+
+.btn {
+    /* margin-top: 1rem ;  */
+    /* display:inline-block ; */
+    /* padding:.5rem 1.3rem ; */
+    /* border-radius :.3rem ; */
+    padding : 7px 10px ;
+    font-size : 18px ;
+    border-radius : 8px ;
+    background:black ;
+    color : whitesmoke ;
+    margin-top: 13px;
+    cursor : pointer ;
+    transition : 0.4s ease-in-out ;
+
+}
+.btn:hover {
+    background:mistyrose ;
+    color : black ;
+    transform : rotate(360deg) ;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    background: #1e1e1e;
+    color: greenyellow;
+    box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+  }
+  
+  button:hover {
+    animation: a 0.5s 1 linear;
+  }
+  
+  @keyframes a {
+    0% {
+      transform: scale(0.7, 1.3);
+    }
+  
+    25% {
+      transform: scale(1.3, 0.7);
+    }
+  
+    50% {
+      transform: scale(0.7, 1.3);
+    }
+  
+    75% {
+      transform: scale(1.3, 0.7);
+    }
+  
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+
+
+@media (max-width:576px) {
+    .bg-conta{
+        margin-top :20px ;
+        padding-left : 100px ;
+        background-color: antiquewhite;
+        
+    }
+    
+    .each-field{ 
+        margin-top : 15px ;
+    }
+    
+}
+
+
